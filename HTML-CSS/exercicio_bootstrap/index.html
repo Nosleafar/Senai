@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos Ivone</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Produtos Ivone</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-success text-white text-center py-5">
+    <h1 class="display-5">Bem-vindo à Ivone</h1>
+    <p class="lead">Seu destino para produtos de beleza de alta qualidade</p>
+    <a href="#products" class="btn btn-light btn-lg">Ver Produtos</a>
+  </header>
+
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Sobre Nós</h2>
+          <p>Os Produtos Ivone® é uma linha de produtos especializada em maquiagem e shampoo para a beleza. Foi criada em 1979 e foi patrocinada pela Rochelle's Enterprise algum tempo depois. Foi avaliada e experimentada pelas celebridades em 1980, que gostaram e recomendaram para seus fãs. Em 1983, foi considerada uma das marcas de produtos mais vendida de todos os tempos. .</p>
+        </div>
+        <div class="col-md-6">
+          <img src="imagens/imagem1.jpg" alt="Sobre" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="products" class="bg-light py-5">
+    <div class="container">
+      <h2>Nossos Produtos</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="imagens/imagem2.png" alt="Produto 1" class="img-thumbnail">
+            <div class="card-body">
+              <h5 class="card-title">Colônia Líquida Pure Voodoo</h5>
+              <p class="card-text">A colônia Pure Voodoo, contém mais de 20% de componentes aromáticos do que qualquer outra do mesmo tipo, e é classificado pela família olfativa como matéria prima aromática natural ainda não existente.</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="imagens/imagem3.png" alt="Produto 2" class="img-thumbnail">
+            <div class="card-body">
+              <h5 class="card-title">Creme de Hidratação Ivone</h5>
+              <p class="card-text">Creme manipulado com extrato glicólico natural de Calêndula officinalis, Camomila e Óleos vegetais de Amêndoas doces e Rosa Mosqueta. Não contém parabenos e nem óleo mineral..</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="imagens/imagem4.jpg" alt="Produto 3" class="img-thumbnail">
+            <div class="card-body">
+              <h5 class="card-title">Kit Shampoo e Reparador de Cachos, Rochelle's Lovers</h5>
+              <p class="card-text">Quer limpar e cuidar de seu cabelo ao mesmo tempo? O kit de tratamento capilar Ivone, limpa seu couro cabeludo e seu cabelo, ao se misturar com água para criar uma espuma que solta e remove a sujeira, o excesso de oleosidade natural do couro cabeludo e todos os resíduos de produtos que você tenha usado antes para estilizar seu cabelo, como fixadores, por exemplo. Descubra aqui o shampoo de que você precisa para ter uma sensação de limpeza mais duradoura evitando deixar seu cabelo pesado ou oleoso.</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2>Entre em Contato</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Mensagem</label>
+              <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h3>Informações de Contato</h3>
+          <p>Endereço: Brooklyn, 1986, Nova Iorque, Estados Unidos</p>
+          <p>Email: rochellerock@ivone.com</p>
+          <p>Telefone: (1)4002-8922</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2022 Produtos Ivone. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
