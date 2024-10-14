@@ -1,0 +1,21 @@
+Criar um programa para simular um Televisor
+
+na classe televisor, terão os atributos 
+1. canal
+2. volume
+3. ligado/desligado
+
+E os métodos
+
+ligar Televisor
+aumentar volume 
+diminuir volume	
+aumentar canal
+diminuir canal
+
+Quando ligar o televisor, o canal padrão é o canal 1
+Volume e canal não podem ter valores menor que 0
+O volume máximo, é 16
+O canal máximo, é 15
+Mostre o status atual do televisor (se ligado, mostre o canal, o volume e ligado)
+Se desligado, mostre o televisor desligador	
